@@ -1,0 +1,80 @@
+
+
+.menu {
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.064);
+    margin-top: 100px;
+}
+
+.heading-menu {
+    font-size: 3rem;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.dash {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    color: rgb(247, 180, 55);;
+}
+
+.price {
+    color: rgb(247, 180, 55);
+}
+
+.first-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.menu-icon {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.menu-icon > h3, p {
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu-icon > h3 {
+    font-weight: 100;
+}
+
+.menu-icon > p {
+    font-weight: 100;
+    color: grey;
+}
+
+/* .menu-icon > * {
+    padding-left: 20px;
+} */
+
+.menu-icon > h3 {
+    font-size: 2rem;
+}
+
+.menu-icon > img {
+    height: 300px;
+    width: 300px;
+}
