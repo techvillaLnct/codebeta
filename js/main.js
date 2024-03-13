@@ -98,15 +98,6 @@ ScrollReveal().reveal(".video", {
   scale: 0.85
 });
 
-// ScrollReveal().reveal(".text-best-selling", {
-//   delay: 100,
-//   duration: 1500,
-//   rotate: {
-//     x: 20,
-//     z: 20
-//   }
-// });
-
 ScrollReveal().reveal(".text-best-selling", {
   duration: 3000,
   origin: "left",
@@ -114,10 +105,10 @@ ScrollReveal().reveal(".text-best-selling", {
   easing: "ease-in-out"
 });
 
-ScrollReveal().reveal(".header-krish", {
-  duration: 2000,
+ScrollReveal().reveal(".company-krish", {
+  duration: 1000,
   origin: "bottom",
-  distance: "10px",
+  distance: "5px",
   easing: "cubic-bezier(.37,.01,.74,1)",
   opacity: 0.3,
   scale: 0.5
