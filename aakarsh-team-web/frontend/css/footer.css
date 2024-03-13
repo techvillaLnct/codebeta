@@ -50,7 +50,12 @@
     padding: 10px 0px;
 }
 
-.para {
+
+.links {
+    padding-left: 100px;
+}
+
+.para3 {
     font-family: "Signika Negative", sans-serif;
     font-size: 18px;
     color: rgb(163, 149, 149);
