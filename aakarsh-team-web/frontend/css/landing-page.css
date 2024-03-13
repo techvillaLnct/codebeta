@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    filter: brightness(50%);
+    padding: 0;
+    margin: 0;
+}
+
+.landing-page {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.land-head > h1 {
+    font-size: 4rem;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.land-head {
+    height: 200px;
+    max-width: 550px;
+    margin-bottom: 20px;
+}
+
+.landing-page {
+    
+}
+
+.head-text {
+    
+}
+
+.head-text > p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.get-started > a > button {
+    padding: 10px;
+    margin: 10px;
+    background: none;
+    background-color: none;
+    width: 120px;
+    font-size: 1rem;
+    border: 1px solid white;
+}
+
+/* .banner-img {
+    position: absolute;
+    opacity: 80%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    filter: brightness(30%);
+} */
+
+.website {
+    position: relative;
+}

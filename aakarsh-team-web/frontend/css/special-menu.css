@@ -1,0 +1,63 @@
+
+#special-menu {
+    margin-top: 100px;
+    height: 120vh;
+}
+
+.line > h1, .testing > h1 {
+    margin-left:40% ;
+    padding-bottom: 20px;
+}
+.line{
+    color: salmon;
+}
+.font{
+    font-weight: bold;
+}
+#imgntext{
+    display:flex ;
+    flex-wrap: wrap;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 120vh;
+}
+
+.line > h1 {
+    color: rgb(247, 180, 55);
+}
+
+.testing > h1 {
+    color: black;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.photo{
+    height: 25%;
+    width: auto;
+}
+.photo0{
+    height: auto;
+    width:  30%;
+    margin: 20px;
+    overflow: hidden;
+    background-color: white;
+
+}
+.photo1{
+    height: auto;
+    /* width: 29vw; */
+    width:  30%;
+    margin: 20px;
+    /* border-radius: 2%; */
+    overflow: hidden;
+}
+.photo2{
+    height: auto;
+    /* width: 29vw; */
+    width:  30%;
+    margin: 20px;
+    overflow: hidden;
+
+}
+
