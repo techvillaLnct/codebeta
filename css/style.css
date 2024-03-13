@@ -6,6 +6,7 @@
 body{
     background-color: #001213;
     color: #fff;
+    overflow-x: hidden;
 }
 
 .header-krish {
