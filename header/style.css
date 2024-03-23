@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f0f2f5;
+    overflow: hidden;
+}
+
+.header-krish{
+    width: 100%;
+    height: 80px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+
+}
+
+
+.heading-krish{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.span-krish{
+    color: red;
+}
+
+.navi-krish{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.navi-krish{
+    display: flex;
+}
+
+.navi-krish ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+
+.navi-krish ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+/* .navi-krish ul li a:hover{
+    color: black;
+    background: white;
+} */
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+
+.cart-krish{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+}
+
+
+.mobile-nav{
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: 0.5s;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .navi-krish{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    header{
+        padding: 0 20px;
+    }
+}
+
+
+.ham-line{
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px 0;
+}
+
+.mobile-nav-container{
+    display: flex;
+}
+.mobile-nav-container ul{
+    flex-direction: column;
+}
+.mobile-nav-container ul li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.mobile-nav-container ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration:none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+
+/* .mobile-nav-container ul li a:hover{
+    color: black;
+    background: white;
+} */
+
+
+@media only screen and (min-width: 650px) {
+    .mobile-nav-container{
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
+    }
+    .hamburger{
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+}
